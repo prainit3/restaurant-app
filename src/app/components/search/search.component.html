@@ -1,0 +1,7 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="name">Postcode</label>
+        <input type="text" name="postcode" id="postcode" [(ngModel)]="postcode" placeholder="Enter Postcode">
+    </div>
+    <input type="submit" value="Search Restaurants" class="btn btn-block">
+</form>
